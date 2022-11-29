@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+header,footer{
+    background-color: khaki;
+    color: white;
+    height: 10vh;
+    line-height: 10vh;
+}
+nav{
+    background-color: pink;
+    height: 100vh;
+    float: left;
+    width: 300px;
+}
+article{
+    background-color: whitesmoke;
+    flex: 2;
+}
+aside{
+    background-color: aqua;
+    flex: 1;
+}
+main{
+    display: flex;
+    height: 80vh;
+    line-height: 80vh;
+}
